@@ -1,0 +1,9 @@
+[project]
+name = "ai-news-brief"
+version = "0.1.0"
+description = "Daily AI-heavy news fetcher that generates a static website."
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

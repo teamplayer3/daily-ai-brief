@@ -12,7 +12,7 @@ Static site generator for an AI-heavy daily news front page.
 ## Run
 
 ```bash
-python3 -m ai_news_brief
+python3 -m lib
 ```
 
 This writes the generated site to `site/`.
@@ -20,7 +20,7 @@ This writes the generated site to `site/`.
 ## Options
 
 ```bash
-python3 -m ai_news_brief --output-dir site --days 7 --per-source 8 --limit 24
+python3 -m lib --output-dir site --days 7 --per-source 8 --limit 24
 ```
 
 ## Local preview

@@ -33,7 +33,7 @@ jobs:
           python-version: "3.12"
 
       - name: Generate site
-        run: python -m ai_news_brief --output-dir site
+        run: python -m lib --output-dir site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
